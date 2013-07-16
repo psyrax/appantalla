@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var socket = io.connect('http://192.168.5.169:1337');
+  var socket = io.connect('http://192.168.5.30:1337');
   $('#sendVideo').on('click', function(){
     var video_id = $('#video').val().split('v=')[1];
     var ampersandPosition = video_id.indexOf('&');
