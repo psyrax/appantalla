@@ -1,0 +1,17 @@
+{
+  "name": "nodeNote",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "socket.io": "latest",
+    "sanitizer": "latest",
+    "express": "latest",
+    "dateformat": "latest",
+    "request" : "latest"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
